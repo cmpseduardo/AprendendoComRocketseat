@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRENDENDO COM ROCKETSEAT</title>
+</head>
+<body>
+
+    <!-- É interessante dividir o conteúdo desse index.html em outros arquivos, porém, este arquivo foi feito dessa forma apenas para fins pessoais 
+    
+    (NOS VÍDEOS OFERECIDOS PELA ROCKETSEAT NÃO É FEITO DESSA FORMA. O PROFESSOR UTILIZA DIFERENTES ARQUIVOS PARA CADA ASSUNTO ABORDADO) -->
+
+<!-- ========= ATRIBUTOS GLOBAIS ========= -->
+
+    <div class = "carrinho" contenteditable = "true" id = "cart1">
+        <!-- "contenteditable" serve para que o usuário edite o conteúdo do site 
+        id é usado uma única vez. Caso precise usar mais de uma vez, use class -->
+        <p>Teste</p>
+    </div>
+
+    <div class = "carrinho" data-qualquer-nome-aqui = "">
+        <!-- Não sei ainda o uso de data-* -->
+        <p>Teste</p>
+    </div>
+
+    <div class = "carrinho" hidden>
+        <!-- "hidden" serve para esconder o item -->
+        <p>Teste</p>
+    </div>
+
+    <div tabindex = "1">
+        <!-- "tabindex" serve para quando o usuário for usar o TAB, seguir a ordem -->
+        <p>Conteúdo</p>
+    </div>
+
+    <div tabindex = "2">
+        <p>Conteúdo</p>
+    </div>
+
+
+
+<!-- ========= ANINHAMENTO ========= -->
+    <div>
+        <p>
+            <em>Escrever</em> um paragráfo
+            <!-- "em" coloca o texto em itálico -->
+        </p>
+    </div>
+
+    <p>
+        <a href = "">Esse</a></br>
+        Esse é um <em>texto</em>
+        <p>Esse é um outro texto</p>
+    </p>
+
+
+
+
+<!-- ========= PRÁTICA ========= -->
+
+    <!-- OBJETIVO: CRIAR 2 PARAGRÁFOS, E NELES UTILIZAR AS TAGS DE <em> E <strong>. APÓS ISSO,
+        ADICIONAR UM LINK LEVANDO AO GOOGLE-->
+
+    <!-- DICA: DIGITE "lorem" QUE O VSCODE GERARÁ O TEXTO AUTOMATICAMENTE -->
+
+     <!-- DICA: UTILIZANDO "ALT + Z" O VSCODE ORGANIZA O TEXTO DE MELHOR FORMA PARA QUE ELE FIQUE MAIS VISÍVEL AO PROGRAMADOR -->
+
+    <h1>PRATICANDO</h1>
+
+        <p>
+            <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the <em>1500s</em>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the <em>1960s</em> with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <strong>Aldus PageMaker</strong> including versions of Lorem Ipsum.
+        </br>
+
+        <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Rem ex, tempora <em>voluptatum</em> veniam,est ad quibusdam in, iure quaerat amet architecto? Reprehenderit doloremque vitae officia, optio placeat harum unde quasi.</p>
+
+        <a href = "https://www.google.com">SAIBA MAIS</a>
+
+        </p>
+
+
+<!-- ========= CARÁCTER ESPECIAl ========= -->
+    <!-- POR CONTA DE ALGUNS PROBLEMAS QUE PODEM HAVER NA HORA DE CODAR O CÓDIGO, PODE-SE UTILIZAR ESSAS PALAVRAS PARA AS UTILIZAR NO LUGAR DE CARÁCTERES RESERVADAS -->
+    
+    <p>
+        &nbsp; da um espaço antes do texto<br>
+        &lt; coloca o símbolo de menor<br>
+        &gt; coloca o símbolo de maior<br>
+        &amp; coloca o "&"<br>
+        &quot; coloca aspas duplas<br>
+        &apos; coloca aspas simples (apóstrofe)<br>
+    </p>
+
+</body>
+</html>

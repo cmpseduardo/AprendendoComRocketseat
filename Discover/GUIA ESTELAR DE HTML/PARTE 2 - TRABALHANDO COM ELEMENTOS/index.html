@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHANDO COM ELEMENTOS</title>
+</head>
+<body>
+    
+    <!-- É recomendado que não se use mais do que um h1 por página. Aqui foram utilizados apenas para fins pessoais.
+        Seria interessante também dividir o conteúdo desse index.html em outros arquivos, porém, novamente, este arquivo foi feito dessa forma apenas para fins pessoais
+
+        (NOS VÍDEOS OFERECIDOS PELA ROCKETSEAT NÃO É FEITO DESSA FORMA. O PROFESSOR UTILIZA DIFERENTES ARQUIVOS PARA CADA ASSUNTO ABORDADO).-->
+
+
+
+    <!-- ======= TÍTULOS E PARAGRÁFOS ======= -->
+
+      <!-- <h1>, <h2>, <h3> e etc são utilizados por ordem de importância. O título principal que coloquei ("Sobre mim") recebe o h1 por ser o que tem mais destaque na página. Os tópicos recebem h2, e os subtópicos recebem h3 -->
+
+    <h1>Sobre mim</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit possimus voluptate reprehenderit et optio</p>
+        
+        <p>Recusandae unde quam delectus voluptatum aliquid iste sed quisquam voluptatibus maiores cupiditate, provident neque officiis perspiciatis!</p>
+
+    <h2>Nascimento</h2>
+        <h3>Infância</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores ea molestias tenetur nulla pariatur voluptate! Repudiandae rerum tempore inventore adipisci, aperiam dicta maiores omnis molestiae voluptate doloremque quas nulla.</p>
+
+        <h3>Adolescência</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores ea molestias tenetur nulla pariatur voluptate! Repudiandae rerum tempore inventore adipisci, aperiam dicta maiores omnis molestiae voluptate doloremque quas nulla.</p>
+
+        <h3>Maioridade</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores ea molestias tenetur nulla pariatur voluptate! Repudiandae rerum tempore inventore adipisci, aperiam dicta maiores omnis molestiae voluptate doloremque quas nulla.</p>
+
+    <h2>Trabalho</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis aliquam saepe ad ipsum quas corporis quae assumenda rerum molestiae minus numquam, dolores enim, ipsa at atque! Necessitatibus, id. Est?
+
+    <a href = "">Saiba mais</a>
+
+
+
+
+    <!-- ======= LISTAS ======= -->
+
+    <h1>Suco Detóx</h1>
+        <h2>Ingredientes:</h2>
+        <!-- DICA: DIGITANDO tag*quantidadeDesejada O VSCODE CRIA A QUANTIDADE DESEJADA DE TAG'S QUE VOCÊ COLOCOU. EXEMPLO: li*5 CRIA 5 VEZES A TAG LI -->
+
+        <!-- ----- LISTA ORDENADA ----- -->
+            <ol>
+                <li>3 folhas de couve;</li>
+                <li>1 laranja;</li>
+                <li>1 pedacinho gengibre;</li>
+                <li>Adoçante a gosto;</li>
+                <li>Gelo a gosto.</li>
+            </ol>
+
+        <h2>Ingredientes:</h2>
+
+        <!-- ----- LISTA NÃO ORDENADA ----- -->
+            <ul>
+                <li>3 folhas de couve;</li>
+                <li>1 laranja;</li>
+                <li>1 pedacinho gengibre;</li>
+                <li>Adoçante a gosto;</li>
+                <li>Gelo a gosto.</li>
+            </ul>
+
+
+
+
+    <!-- ======= CITAÇÕES ======= -->
+
+    <blockquote cite = "https://www.testandocitacaohtml.com">
+        Isso é um <strong>teste</strong> para ver a funcionalidade do <strong><code>&lt;blockquote&gt;</code></strong> (ou <em>HTML Block Quotation Element</em>). Ele indica que um texto externo foi citado
+    </blockquote>
+
+
+    <p>De acordo com a <a href = "https://www.testandocitacaohtml.com">
+        <cite>empresa</cite></a>
+    </p>
+
+    <p>O elemento quote - <code>&lt;q&gt;</code> é <q cite = "https://www.testandocitacaohtml.com">usado para citações curtas que não precisam de paragráfos ou quebras de linha.</q> -- <a href = "https://www.testandocitacaohtml.com"><cite>empresa</cite></a></p>
+
+
+
+
+    <!-- ======= ABREVIAÇÕES ======= -->
+    <p>Usamos <abbr title = "Hypertext Markup Language">HTML</abbr> para estruturar nossos documentos da web.</p>
+    <!-- Passando o mouse por cima do texto abreviado, é mostrado o que significa a abreviação. -->
+
+
+
+
+    <!-- ======= DETALHES DE CONTATO ======= -->
+    <address>
+        <p>Eduardo Campos<br>
+        <strong>Jaguariúna, SP</strong>
+        </p>
+    </address>
+
+
+
+
+    <!-- ======= LISTAS DE DESCRIÇÃO ======= -->
+    <h2>Glossário</h2>
+        <dl>
+            <dt>Hypertext</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos molestias ipsum voluptates enim similique dignissimos repudiandae at voluptatibus, incidunt, neque adipisci sit sed. Fuga nostrum aliquid assumenda quia est.</dd>
+
+            <dt>Markup</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laboriosam nesciunt explicabo, molestiae voluptates perferendis tempore assumenda maxime repudiandae corrupti blanditiis provident consequuntur? Iure, cumque ex harum sed ipsa ullam!</dd>
+
+            <dt>Language</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo omnis nostrum ipsam vel delectus fuga deserunt, veniam quaerat quia, possimus non a perspiciatis officia magni at officiis ut, harum deleniti?</dd>
+        </dl>
+
+    
+
+    <!-- ======= REPRESENTANDO CÓDIGOS DE COMPUTADOR ======= -->
+        <!-- <code> é utilizada para partes genéricas de código -->
+        <!-- <pre> é utilizada para blocos de código, pois a tag mantém os espaços em branco e recuos que forem colocados no código -->
+
+
+    <h2>Código abaixo</h2>
+        <code>&lt;br&gt;</code>
+        
+        <pre>
+            &lt;body&gt;
+                &lt;h1&gt;Teste&lt;/h1&gt;
+            &lt;/body&gt;
+        </pre>
+
+
+
+
+    <!-- ======= ELEMENTOS GENÉRICOS ======= -->
+        <!-- <div> trabalha com a ideia de bloco -->
+        <!-- <span> trabalha com a ideia de linha -->
+
+    <div class = "produto">
+        Um produto
+    </div>
+
+    <span>Um texto</span> <span>Outro texto</span>
+
+    <div class = "cart">
+        <span>Camiseta</span>
+        <span>R$99,99</span>
+    </div>
+</body>
+</html>
